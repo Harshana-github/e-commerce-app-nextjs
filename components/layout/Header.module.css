@@ -1,0 +1,174 @@
+.header {
+  color: white;
+  background-color: rgb(74, 92, 109);
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .avatar {
+  margin: 0px 0px 0px 20px;
+}
+
+/* -----------Cart Icon Design------------- */
+.iconcart {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.iconcart .cartline1 {
+  width: 15%;
+  height: 7%;
+  position: absolute;
+  left: 8%;
+  top: 25%;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+  background-color: rgb(247, 247, 247);
+  border-bottom-left-radius: 35%;
+}
+
+.iconcart .cartline2 {
+  width: 35%;
+  height: 7%;
+  position: absolute;
+  left: 6%;
+  top: 40%;
+  -webkit-transform: rotate(80deg);
+  -moz-transform: rotate(80deg);
+  -ms-transform: rotate(80deg);
+  transform: rotate(80deg);
+  background-color: rgb(255, 255, 255);
+}
+
+.iconcart .cartline2:before {
+  content: "";
+  width: 120%;
+  height: 100%;
+  position: absolute;
+  left: 45%;
+  top: -280%;
+  -webkit-transform: rotate(-80deg);
+  -moz-transform: rotate(-80deg);
+  -ms-transform: rotate(-80deg);
+  transform: rotate(-80deg);
+  background-color: inherit;
+}
+
+.iconcart .cartline2:after {
+  content: "";
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  left: 59%;
+  top: -670%;
+  background-color: inherit;
+  -webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 25%;
+}
+
+.iconcart .cartline3 {
+  width: 30%;
+  height: 7%;
+  position: absolute;
+  left: 33%;
+  top: 45%;
+  background-color: rgb(255, 255, 255);
+}
+
+.iconcart .cartline3:after {
+  content: "";
+  width: 124%;
+  height: 100%;
+  position: absolute;
+  top: -150%;
+  left: -5%;
+  background-color: inherit;
+}
+
+.iconcart .cartwheel {
+  width: 12%;
+  height: 12%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  position: absolute;
+  left: 28%;
+  bottom: 20%;
+}
+
+.iconcart .cartwheel:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  border-radius: 100%;
+  position: absolute;
+  left: 200%;
+  bottom: 0;
+}
+
+/* --------------------user-icon----------------------- */
+
+.avatar {
+  overflow: hidden;
+}
+
+.usericon {
+  font-size: 0.3em; /* change font size should change size of icon */
+  float: left;
+  margin: 1em; /* remove this line to avoid float/margin */
+}
+.usericon {
+  border-radius: 4em;
+  border: 1px solid rgba(255, 255, 255, 0);
+  height: 6em;
+  width: 6em;
+  background: none;
+  padding: 0.1em;
+}
+
+.usericon::before {
+  content: " ";
+  display: block;
+  height: 2em;
+  width: 2em;
+  background: rgb(255, 255, 255);
+  position: relative;
+  left: 2em;
+  top: 0.8em;
+  border-radius: 2em;
+}
+.usericon::after {
+  content: " ";
+  display: block;
+  height: 2em;
+  width: 4em;
+  background: rgb(255, 255, 255);
+  position: relative;
+  left: 1em;
+  top: 1em;
+  border-radius: 2em 2em 0 0;
+}
+
+
+
+
+
+
+
